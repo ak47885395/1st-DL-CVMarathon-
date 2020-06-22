@@ -1,11 +1,11 @@
 # 1st-DL-CVMarathon-
 Day001_HW
-question Number one:
+# question Number one:
 1.檔案資料會包成檔案提供下載，格式可能包含常用的標準格式，例如「CSV」、「JSON」等等通用的格式。
 2.開放接口（API）提供程式化的連接的接口，讓工程師/分析師可以選擇資料中要讀取的特定部分，而不需要把整批資料事先完整下載回來
 3.網頁爬蟲資料沒有以檔案或 API 提供，但出現在網頁上。可以利用爬蟲程式，將網頁的資料解析所需的部分。
 檔案 & API 是由資料擁有者主動釋出，爬蟲則是資料擁有者被動公開的。
-question Number two:
+# question Number two:
 # 根據需求引入正確的 Library
 from urllib.request import urlretrieve
 import os
